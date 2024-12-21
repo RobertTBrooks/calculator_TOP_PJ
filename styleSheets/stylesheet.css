@@ -50,16 +50,6 @@ body {
     margin-bottom: 20px;
 }
 
-#decimalInput {
-    margin: 5px 0;
-    margin-bottom: 20px;
-    border: solid #20A4F3 5px;
-    border-top-color: #2EC4B6;
-    border-left-color: #2EC4B6;
-    font-size: 24px;
-    width: 100%;
-    padding: 10px;
-}
 
 #num-pad {
     display: grid;
