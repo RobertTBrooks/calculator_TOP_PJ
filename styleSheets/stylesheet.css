@@ -1,6 +1,7 @@
 * {
     font-family: cursive;
     box-sizing: border-box;
+    font-weight: 600;
 }
 
 body {
@@ -23,15 +24,8 @@ body {
     padding: 0;
 }
 
-#decimalInput::-webkit-inner-spin-button,
-#decimalInput::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
 
 #decimalInput {
-    appearance: none;
-    -moz-appearance: none;
     margin: 5px 0;
     margin-bottom: 20px;
     border: solid #20A4F3 5px;
@@ -41,7 +35,7 @@ body {
     width: 100%;
     padding: 10px;
     background-color: #F6F7F8;
-    color: #F6F7F8;
+    color: #011627;
 }
 
 #header {
