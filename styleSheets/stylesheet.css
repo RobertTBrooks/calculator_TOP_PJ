@@ -1,0 +1,116 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7F8;
+}
+
+#shadow {
+    border-right: solid #011627 8px;
+    border-top-right-radius: 150px;
+    border-bottom: solid #011627 15px;
+    border-radius: 150px 60px 30px 60px;
+    background-color: #011627;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+/* Remove spinners for Chrome, Safari, Edge, Opera */
+#decimalInput::-webkit-inner-spin-button,
+#decimalInput::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    color: #F6F7F8;
+    font-size: 48px;
+    border: solid #20A4F3 5px;
+    border-radius: 30px;
+    border-top-color: #2EC4B6;
+    border-left-color: #2EC4B6;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+/* Remove spinners for Firefox */
+#decimalInput {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    margin: 5px;
+    margin-bottom: 60px;
+    border: solid #20A4F3 5px;
+    border-top-color: #2EC4B6;
+    border-left-color: #2EC4B6;
+}
+
+#num-pad {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 700px;
+    height: 900px;
+    border: solid #20A4F3 5px;
+    border-top-color: #2EC4B6;
+    border-left-color: #2EC4B6;
+    border-radius: 30px;
+    background-color: #011627;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+#decimalInput {
+    font-size: 64px;
+}
+
+button {
+    font-size: 48px;
+    border: solid;
+    margin: 5px;
+    border-radius: 20px;
+    border: solid #20A4F3 5px;
+    border-top-color: #2EC4B6;
+    border-left-color: #2EC4B6;
+    background-color: #011627;
+    color: #F6F7F8;
+}
+
+#operator-box {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.operator {
+    height: 100%;
+    margin: 5px;
+}
+
+.calc-ui {
+    display: flex;
+    height: 500px;
+}
